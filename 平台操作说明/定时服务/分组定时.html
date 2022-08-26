@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+
+    <title>hexo-theme-doc-seed |  </title>
+    <meta name="description" content>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/style/doc.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/images/favicon.ico">
+
+    
+
+  </head>
+  <body>
+
+   <script>window.__INITIAL_STATE__ = {"page":{"path":"平台操作说明/定时服务/分组定时.html","title":""},"data":{"navigation.yaml":"{\n  \"logo\": {\n    \"text\": \"Hexo Doc Theme Seed\",\n    \"type\": \"link\",\n    \"path\": \"index.html\"\n  },\n  \"main\": [\n    {\n      \"text\": \"SWAGGER\",\n      \"type\": \"label\"\n    },\n    {\n      \"text\": \"UI\",\n      \"type\": \"link\",\n      \"path\": \"swagger/ui.html\"\n    },\n    {\n      \"text\": \"To HTML\",\n      \"type\": \"link\",\n      \"path\": \"swagger/to-html.html\"\n    },\n\n\n\n    {\n      \"text\": \"平台操作说明\",\n      \"type\": \"link\",\n      \"path\": \"swagger/大屏数据展示.html\"\n    },\n    {\n      \"text\": \"SUPPORT AND FEEDBACK\",\n      \"type\": \"label\"\n    },\n    {\n      \"text\": \"Raise an Issue on Github\",\n      \"type\": \"link\",\n      \"path\": \"https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new\"\n    }\n  ]\n}\n","navigation":{"logo":{"text":"Hexo Doc Theme Seed","type":"link","path":"index.html"},"main":[{"text":"平台操作说明","type":"label"},{"text":"大屏数据展示","type":"link","path":"平台操作说明/大屏数据展示.html"},{"text":"教室权限管理","type":"link","path":"平台操作说明/教室权限管理.html"},{"text":"日志管理","type":"link","path":"平台操作说明/日志管理.html"},{"text":"消息中心","type":"link","path":"平台操作说明/消息中心.html"},{"text":"学校数据展示","type":"link","path":"平台操作说明/学校数据展示.html"},{"text":"SWAGGER","type":"label"},{"text":"UI","type":"link","path":"swagger/ui.html"},{"text":"To HTML","type":"link","path":"swagger/to-html.html"},{"text":"SUPPORT AND FEEDBACK","type":"label"},{"text":"Raise an Issue on Github","type":"link","path":"https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"}]}},"config":{"timezone":"UTC","root":"/","time_format":"HH:mm:ss","theme":"../node_modules/hexo-theme-doc","theme_config":{"swagger_ui":{"version":2,"permalinks":true,"api_explorer":true,"download":"Download specification","show_extensions":false,"deep_linking":true,"display_operation_id":false,"doc_expansion":"none"},"search":{"skip":false,"background":false,"route":"/lunr.json"},"favicon":"images/favicon.ico"}}}</script>
+
+    <div id="react-navigation-root"><div class="doc-navigation" data-reactroot><nav class="doc-navbar"><a href="/index.html" class="doc-navbar__logo"><img src="/images/logo.png" class="doc-navbar__logo__img"><span class="doc-navbar__logo__text">Hexo Doc Theme Seed</span></a><i class="dc-icon dc-icon--close dc-icon--interactive doc-sidebar-close doc-navbar__sidebar-close doc-navbar__sidebar-close--desktop"></i><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-navbar__sidebar-toggle"></i></nav><nav class="doc-sidebar"><div class="doc-sidebar__vertical-menu"><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-sidebar-toggle--primary doc-sidebar__vertical-menu__item"></i><i class="dc-icon dc-icon--search dc-icon--interactive doc-sidebar__vertical-menu__item doc-sidebar__vertical-menu__item--primary"></i></div><div class="doc-sidebar-content"><div class="doc-sidebar__search-form"></div><ul class="doc-sidebar-list"></ul></div></nav></div></div>
+    <div class="doc-content">
+  <div class="dc-page">
+    <div class="dc-card">
+      <div id="react-search-results-root"></div>
+      <div id="page-content" class="doc-formatting">
+        <h1 id="分组定时"><a href="#分组定时" class="headerlink" title="分组定时"></a>分组定时</h1><p>分组定时界面，展示当前已创建的所有定时分组。分组展示分组名称、定时个数、分组更新日期和定时更新日期，点击编辑分组可修改分组关联的教室。<br><img src="https://images.gitee.com/uploads/images/2021/1228/161404_4c3bd623_8722785.png" alt="分组列表" title="分组列表.png"></p>
+<h4 id="新增定时分组"><a href="#新增定时分组" class="headerlink" title="新增定时分组"></a>新增定时分组</h4><p>分组定时界面点击右上角创建定时分组可以新增定时分组，弹出创建分组定时界面，输入分组定时名称，选择关联教室（一个教室只能关联一个分组，已被其他分组关联的教室为灰色不可选状态），点击确定，分组定时列表增加一个分组条目。<br><img src="https://images.gitee.com/uploads/images/2021/1228/161509_926fa961_8722785.png" alt="新增定时分组" title="新增分组.png"></p>
+<h4 id="删除定时分组"><a href="#删除定时分组" class="headerlink" title="删除定时分组"></a>删除定时分组</h4><p>分组定时界面点击更多-删除，弹出请确认已关联教室的网关是否在线且已联网（未联网情况下删除操作可能导致定时不同步），是否删除分组定时，点击确定直接删除定时分组。<br><img src="https://images.gitee.com/uploads/images/2021/1228/161556_bec28e5c_8722785.png" alt="删除定时分组" title="删除分组.png"></p>
+<h4 id="分组定时详情"><a href="#分组定时详情" class="headerlink" title="分组定时详情"></a>分组定时详情</h4><p>分组定时界面点击更多-分组详情，展示该分组下所有房间定时情况、更新状态以及最后更新日期。<br><img src="https://images.gitee.com/uploads/images/2021/1228/161648_1aa65f79_8722785.png" alt="分组详情" title="分组定时详情.png"></p>
+<h1 id="定时设置"><a href="#定时设置" class="headerlink" title="定时设置"></a>定时设置</h1><p>点击设置定时跳转到定时列表界面，展示该分组的定时列表，点击编辑可修改定时参数（包括定时名称、定时时间、执行周期、关联动作）<br><img src="https://images.gitee.com/uploads/images/2021/1228/161723_4cfb2731_8722785.png" alt="分组定时列表" title="定时列表.png"></p>
+<h4 id="新增定时"><a href="#新增定时" class="headerlink" title="新增定时"></a>新增定时</h4><p>定时列表界面，点击右上角创建定时，弹出创建定时填写框，输入定时名称、选择定时时间、执行周期、关联动作，点击确定即新增一条定时。<br><img src="https://images.gitee.com/uploads/images/2021/1228/161759_03e2da3e_8722785.png" alt="新增定时" title="新增定时.png"></p>
+<h4 id="删除定时"><a href="#删除定时" class="headerlink" title="删除定时"></a>删除定时</h4><p>定时列表界面，点击删除按钮，弹出请确认已关联教室的网关是否在线且已联网（未联网情况下删除操作可能导致定时不同步），是否删除定时提示，点击确定直接删除定时。<br><img src="https://images.gitee.com/uploads/images/2021/1228/161837_ce886a7c_8722785.png" alt="删除定时" title="删除定时.png"></p>
+
+        <div id="react-support-footer-root"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+    
+
+    <!-- js vendors -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.0/lunr.min.js"></script>
+
+    <!-- js source  -->
+    <script src="/script/doc.js"></script>
+
+    
+
+  </body>
+</html>
